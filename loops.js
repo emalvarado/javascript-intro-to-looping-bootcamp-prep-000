@@ -26,7 +26,7 @@ function incrementVariable() {
 }
 
 function doWhileLoop(array) {
-do { delete array
+do { delete array;
 } while (array.length > 0 && incrementVariable());
 return array
 }
