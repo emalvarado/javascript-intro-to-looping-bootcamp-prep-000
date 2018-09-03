@@ -26,8 +26,24 @@ function incrementVariable() {
 }
 
 function doWhileLoop(array) {
+
+
+
+
+
 incrementVariable()
 do { array.length -1;
 } while (array.length > 0 && incrementVariable());
 return array;
+}
+
+
+function doWhileLoop(array) {
+  function maybeTrue() {
+    return Math.random() >= 0.5
+  }
+   do {
+    array.pop();
+  } while (array.length > -1 && maybeTrue());
+    return array;
 }
