@@ -19,31 +19,16 @@ function whileLoop(n) {
   return "done";
 }
 
+
+
+function doWhileLoop(array) {
   var i = 0;
  
 function incrementVariable() {
   i = i + 1;
-}
-
-function doWhileLoop(array) {
-
-
-
-
-
-incrementVariable()
-do { array.length -1;
+} do { array.pop();
 } while (array.length > 0 && incrementVariable());
 return array;
 }
 
 
-function doWhileLoop(array) {
-  function maybeTrue() {
-    return Math.random() >= 0.5
-  }
-   do {
-    array.pop();
-  } while (array.length > -1 && maybeTrue());
-    return array;
-}
